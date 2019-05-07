@@ -1,0 +1,11 @@
+{
+  "name": "sankey-particles",
+  "version": "1.0.0",
+  "description": "Sankey Particle Chart with own data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Oberbillig (danieloberbillig.com)",
+  "license": "ISC"
+}

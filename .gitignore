@@ -1,0 +1,12 @@
+# exclude all files and folders containing 'config'
+node_modules/
+db/
+*.db
+config
+*.xlsx
+*.xls
+
+# other examples
+*.log
+build/
+temp-*
