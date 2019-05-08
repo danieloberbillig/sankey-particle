@@ -4,6 +4,7 @@
 <head>
 <meta charset='utf-8' />
 <title>Sankey Particles</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <canvas width='1000' height='1000' ></canvas>
@@ -189,7 +190,7 @@
       for (const x in particles) {
         if ({}.hasOwnProperty.call(particles, x)) {
           const currentTime = elapsed - particles[x].time;
-  //        let currentPercent = currentTime / 1000 * particles[x].path.getTotalLength();
+        //  let currentPercent = currentTime / 1000 * particles[x].path.getTotalLength();
           particles[x].current = currentTime * 0.15 * particles[x].speed;
           const currentPos = particles[x].path.getPointAtLength(particles[x].current);
           context.beginPath();
